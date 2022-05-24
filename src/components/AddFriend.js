@@ -26,7 +26,8 @@ const AddFriend = () => {
             }
         })
             .then(response => {
-                push('./friends');
+                console.log(response);
+                push('/friends');
             })
             .catch(error => {
                 console.error(error);
