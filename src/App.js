@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route} from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-      <h2>Client Auth Project</h2>
+      <h2>Client Authentication Project</h2>
     </div>
   );
 }
